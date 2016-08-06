@@ -29,6 +29,7 @@ profile
 DerivedData
 .idea/
 .plugin
+*.swp
 
 # CocoaPods
 sample/SampleBroadcaster/Pods

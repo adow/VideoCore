@@ -8,6 +8,7 @@
 #include <videocore/filters/Basic/SepiaVideoFilter.h>
 #include <videocore/filters/Basic/FisheyeVideoFilter.h>
 #include <videocore/filters/Basic/GlowVideoFilter.h>
+#include <videocore/filters/Beauty/BeautyVideoFilter.hpp>
 
 namespace videocore {
     std::map<std::string, InstantiateFilter>* FilterFactory::s_registration = nullptr ;
@@ -20,6 +21,7 @@ namespace videocore {
             filters::SepiaVideoFilter s;
             filters::FisheyeVideoFilter f;
             filters::GlowVideoFilter gl;
+	    filters::BeautyVideoFilter beauty;
         }
     }
     IFilter*
